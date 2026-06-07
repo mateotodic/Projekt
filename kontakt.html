@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt – Fer Gradnja d.o.o.</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- ZAGLAVLJE -->
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Fer Gradnja d.o.o." class="logo-slika">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="o-nama.html">O nama</a></li>
+                    <li><a href="projekti.html">Projekti</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="unos.html">Unos projekta</a></li>
+                    <li><a href="projekti.xml">XML</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- TIJELO STRANICE -->
+    <main>
+
+        <section class="stranica-naslov">
+            <h2>Kontakt</h2>
+            <p>Javite nam se — odgovaramo u roku od jednog radnog dana</p>
+        </section>
+
+        <section class="kontakt-grid">
+
+            <!-- Kontakt informacije -->
+            <div class="kontakt-info">
+                <h3>Podaci o firmi</h3>
+
+                <div class="kontakt-red">
+                    <strong>Adresa:</strong>
+                    <span>Sremskih boraca 2T, Zemun, Beograd</span>
+                </div>
+                <div class="kontakt-red">
+                    <strong>E-mail:</strong>
+                    <span><a href="mailto:info@fergradnja.rs">info@fergradnja.rs</a></span>
+                </div>
+                <div class="kontakt-red">
+                    <strong>Radno vreme:</strong>
+                    <span>Pon–Pet, 08:00 – 16:00</span>
+                </div>
+                <div class="kontakt-red">
+                    <strong>PIB:</strong>
+                    <span>103060743</span>
+                </div>
+                <div class="kontakt-red">
+                    <strong>Matični br.:</strong>
+                    <span>17511157</span>
+                </div>
+            </div>
+
+            <!-- Kontakt forma -->
+            <div class="kontakt-forma">
+                <h3>Pošaljite upit</h3>
+
+                <form action="#" method="post">
+
+                    <div class="forma-grupa">
+                        <label for="ime">Ime i prezime</label>
+                        <input type="text" id="ime" name="ime" placeholder="Vaše ime i prezime">
+                    </div>
+
+                    <div class="forma-grupa">
+                        <label for="email">E-mail adresa</label>
+                        <input type="email" id="email" name="email" placeholder="vasa@adresa.com">
+                    </div>
+
+                    <div class="forma-grupa">
+                        <label for="poruka">Poruka</label>
+                        <textarea id="poruka" name="poruka" placeholder="Opišite vaš upit ili projekat..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Pošalji upit</button>
+
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- PODNOŽJE -->
+    <footer>
+        <p>Autor: Ivan Horvat &nbsp;|&nbsp; <a href="mailto:ivan.horvat@fgradnja.rs">ivan.horvat@fgradnja.rs</a> &nbsp;|&nbsp; &copy; 2024 Fer Gradnja d.o.o.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unos projekta – Fer Gradnja d.o.o.</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- ZAGLAVLJE -->
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Fer Gradnja d.o.o." class="logo-slika">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="o-nama.html">O nama</a></li>
+                    <li><a href="projekti.html">Projekti</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="unos.html">Unos projekta</a></li>
+                    <li><a href="projekti.xml">XML</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- TIJELO STRANICE -->
+    <main>
+
+        <section class="stranica-naslov">
+            <h2>Unos novog projekta</h2>
+            <p>Popunite obrazac za dodavanje novog projekta u evidenciju</p>
+        </section>
+
+        <section>
+            <div class="forma-unos">
+
+                <form name="unos_projekta" action="skripta.php" method="POST">
+
+                    <div class="form-item">
+                        <label for="naziv">Naziv projekta</label>
+                        <input type="text" id="naziv" name="naziv" class="form-field-textual" autofocus>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="sazetak">Kratki sažetak projekta (do 50 znakova)</label>
+                        <textarea name="sazetak" id="sazetak" cols="30" rows="3" class="form-field-textual"></textarea>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="opis">Opis projekta</label>
+                        <textarea name="opis" id="opis" cols="30" rows="6" class="form-field-textual"></textarea>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="slika">Slika projekta:</label>
+                        <input type="file" accept="image/jpg,image/gif,image/png" name="slika" id="slika">
+                    </div>
+
+                    <div class="form-item">
+                        <label for="kategorija">Kategorija projekta</label>
+                        <select name="kategorija" id="kategorija" class="form-field-textual">
+                            <option value="stambeni">Stambeni objekat</option>
+                            <option value="poslovni">Poslovni objekat</option>
+                            <option value="javni">Javni objekat</option>
+                            <option value="industrijski">Industrijski objekat</option>
+                            <option value="rekonstrukcija">Rekonstrukcija</option>
+                        </select>
+                    </div>
+
+                    <div class="form-item">
+                        <label>Prikazati projekt na stranici:
+                            <input type="checkbox" name="prikaz" value="da">
+                        </label>
+                    </div>
+
+                    <div class="form-item">
+                        <button type="reset" value="Poništi">Poništi</button>
+                        <button type="submit" value="Prihvati">Prihvati</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PODNOŽJE -->
+    <footer>
+        <p>Autor: Ivan Horvat &nbsp;|&nbsp; <a href="mailto:ivan.horvat@fgradnja.rs">ivan.horvat@fgradnja.rs</a> &nbsp;|&nbsp; &copy; 2024 Fer Gradnja d.o.o.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="projekti.xsl"?>
+<Kolekcija>
+
+    <Projekt>
+        <Naziv>Stambena zgrada Cara Dušana</Naziv>
+        <Kategorija>stambeni</Kategorija>
+        <Sazetak>Stambeno-poslovna zgrada s 12 stanova i jednoetažnom garažom u Zemunu.</Sazetak>
+        <Datum>2022.</Datum>
+    </Projekt>
+
+    <Projekt>
+        <Naziv>Poslovni centar Sremski</Naziv>
+        <Kategorija>poslovni</Kategorija>
+        <Sazetak>Višenamjenski poslovni objekat s kancelarijskim prostorima, izvedeno ključ u ruke.</Sazetak>
+        <Datum>2021.</Datum>
+    </Projekt>
+
+    <Projekt>
+        <Naziv>Rezidencijalni kompleks Nova Zemun</Naziv>
+        <Kategorija>stambeni</Kategorija>
+        <Sazetak>Stambeni kompleks od tri zgrade s ukupno 36 stanova i podzemnom garažom.</Sazetak>
+        <Datum>2020.</Datum>
+    </Projekt>
+
+    <Projekt>
+        <Naziv>Sanacija objekta Karaburma</Naziv>
+        <Kategorija>rekonstrukcija</Kategorija>
+        <Sazetak>Potpuna rekonstrukcija stambene zgrade iz 1970-ih uz zamjenu fasade i instalacija.</Sazetak>
+        <Datum>2023.</Datum>
+    </Projekt>
+
+    <Projekt>
+        <Naziv>Dogradnja školskog objekta</Naziv>
+        <Kategorija>javni</Kategorija>
+        <Sazetak>Dogradnja i adaptacija školskog objekta s novom sportskom salom i svlačionicama.</Sazetak>
+        <Datum>2019.</Datum>
+    </Projekt>
+
+    <Projekt>
+        <Naziv>Industrijska hala Batajnica</Naziv>
+        <Kategorija>industrijski</Kategorija>
+        <Sazetak>Izgradnja industrijske hale površine 2.400 m² s administrativnim prostorom.</Sazetak>
+        <Datum>2018.</Datum>
+    </Projekt>
+
+</Kolekcija>
