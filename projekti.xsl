@@ -4,8 +4,6 @@
     <xsl:template match="/">
     <xsl:variable name="BrojProjekata" select="count(//Projekt)"/>
 
-    <!DOCTYPE html>
-    <html lang="hr">
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
